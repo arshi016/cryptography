@@ -16,6 +16,7 @@ def decrypt_caesar(cipher_text, key):
 
 def main():
     test = "abcde"
+    test = test.lower()
     print(encrypt_casear(test, 3))
 
 if __name__ == '__main__':
